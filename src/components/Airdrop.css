@@ -1,0 +1,36 @@
+/* AirdropSol.css */
+
+.airdrop-sol-container {
+  display: flex;
+  flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .airdrop-sol-container input[type="text"],
+  .airdrop-sol-container input[type="number"] {
+    max-width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .airdrop-sol-container button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .airdrop-sol-container button:hover {
+    background-color:rgb(217, 217, 217)
+  }
+  

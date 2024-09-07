@@ -1,0 +1,38 @@
+/* GenerateWallet.css */
+
+.generate-wallet-container {
+  margin-top: 20px;
+}
+
+.generate-wallet-container .wallet {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 20px ;
+  margin-right: 30px;
+  border-radius: 10px;
+  max-width: 100%; /* Ensure the wallet div does not overflow */
+  overflow: hidden; /* Hide any overflow */
+  word-wrap: break-word; /* Ensure long text breaks properly */
+}
+
+.generate-wallet-container button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: white;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-wallet-container button:hover {
+  background-color: rgb(217, 217, 217);
+}
+
+.generate-wallet-container .wallet p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #fff;
+  word-wrap: break-word; /* Ensure long text wraps properly */
+}

@@ -1,0 +1,44 @@
+/* CheckBalance.css */
+
+.check-balance-container {
+  display:flex;
+  flex-direction: column;
+    margin: 20px 0;
+    
+  }
+  
+  .check-balance-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    max-width: 80%;
+    margin: 10px 0;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .check-balance-container button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .check-balance-container button:hover {
+    background-color:rgb(217, 217, 217)
+    
+  }
+  
+  .check-balance-container p {
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
