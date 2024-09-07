@@ -22,7 +22,7 @@ const App = () => {
   const [airdropAmount, setAirdropAmount] = useState(1);
   const [balanceWallet, setBalanceWallet] = useState("");
   const [airdropWallet, setAirdropWallet] = useState("");
-  const [mnemonic, setMnemonic] = useState(null);
+  const [mnemonic, setMnemonic] = useState("");
 
   const generateNewWallet = () => {
     try {
